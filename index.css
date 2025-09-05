@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(to right, black, white);
+    text-align: center;
+}
+
+header {
+    background-color: #808080;
+    color: azure;
+    padding: 10px;
+    border-left: 40px;
+    border-right: 80px;
+}
+
+#holiday {
+    width: 100%;
+    color: white;
+    font-size: 2em;
+}
+
+#message {
+    font-size: 18px;
+    color: darkblue;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 5px;
+        font-size: 16px;
+    }
+    header {
+        padding: 8px;
+        font-size: 1.2em;
+    }
+    #holiday {
+        font-size: 18px;
+        padding: 8px;
+    }
+    #message {
+        font-size: 15px;
+    }
+    label,
+    select {
+        font-size: 15px;
+        margin: 5px 0;
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+    }
+    select {
+        padding: 6px;
+        max-width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
